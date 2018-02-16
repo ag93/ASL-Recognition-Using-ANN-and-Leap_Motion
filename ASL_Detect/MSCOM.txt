@@ -1,0 +1,8 @@
+run as adminstrtor
+--go to system32  (if system 32 bit )
+--go to sysWOW64  (if system 64 bit )
+-- regsvr32.exe     MSCOMM32.OCX
+-- regsvr32.exe     RICHTX32.OCX
+
+----------------------
+check run.bat   file  path also  "C:\Program Files (x86)\Java\jdk1.6.0_16\bin\java.exe" -jar -Xmx1024m jsapi\JavaSAPI.jar
